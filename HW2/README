@@ -1,0 +1,26 @@
+Kexin Hui khui3@illinois.edu
+
+a)
+modify ./data/decision-trees/src/FeatureGenerator.java to generate 10 features
+
+b)
+1. Simple SGD
+generate badges.fold{1-5}.arff by modified ./data/decision-trees/test.sh
+run ./data/decision_trees/src/SGD.py
+
+2. Grow decision tree
+modify ./data/decision-trees/src/WekaTester.java to take two input arguments as train and test, and also setMaxDepth to -1
+modify and run ./data/decision-trees/test.sh to generate 5 badges.train{1-5}.arff for cross validation, then to see the output result
+
+3. Grow decision tree of depth 4
+modify setMaxDepth to 4 in ./data/decision-trees/src/WekaTester.java
+run ./data/decision-trees/test.sh as before
+
+4. Grow decision tree of depth 8
+modify setMaxDepth to 8 in ./data/decision-trees/src/WekaTester.java
+run ./data/decision-trees/test.sh as before
+
+5. Decision stumps as features
+modify ./data/decision-trees/src/WekaTester.java to generate the new train and test data with 100-features
+run ./data/decision-trees/test.sh to generate
+run ./data/decision_trees/src/DS_SGD.py
