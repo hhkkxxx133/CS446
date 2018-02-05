@@ -1,0 +1,19 @@
+Kexin Hui (khui3)
+CS446 HW3
+
+1(b)
+1b.py is for parameter tuning. At first, uncomment the commented lines to save the data, and comment the lines to load the data in order to first generate the dataset. Next, comment the save_data lines, and uncomment load_data lines. Manually try different combinations of parameters to get the optimal ones by comparing the accuracy. Also change n to 1000 for different feature numbers. 
+
+1(d)
+1d.py is used to plot number of mistakes vs. number of examples. Change n to 1000 for different feature numbers and compare. 
+
+2.
+For the parameter tuning, I still use 1b.py by manually changing l, m and n values here. 
+
+For the plot generating, we use experiment_2.py. Just run.
+
+3. 
+experiment_3.py is run here. Similar to 1(b), uncomment the commented lines to save the data, and comment the lines to load the data in order to first generate the dataset. Next, comment the save_data lines, and uncomment load_data lines. Manually try different combinations of parameters to get the optimal ones by comparing the accuracy. 
+
+Bonus
+bonus.py is run here. Two graphs for misclassification errors and hinge loss will be generated in the end.
